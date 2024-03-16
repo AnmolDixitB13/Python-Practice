@@ -23,7 +23,7 @@ def leap(year):
     total_days_in_month = days["feb_reg"]
 
   return total_days_in_month
-  print("returned value")
+  #print("returned value")
 
 
 days = {
