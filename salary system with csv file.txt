@@ -8,7 +8,15 @@ month & year for which the employee's salary has to be calculated
 no. of leave days the employee took in that month
 the tax deduction (tds).
 
-The O/P Section should display the employee details & following details/calculations - (tds deduction, leave deduction, final monthly take home salary) at console & along with this, a copy of the I/P details & the calculations should also be sent to the csv file as records.
+The O/P Section should display the employee details & following details/calculations - (tds deduction, leave 
+deduction, final monthly take home salary) at console & along with this, a copy of the I/P details & the 
+calculations should also be sent to the csv file as records.
+
+Note: If the entered month is Feb, the program must find out whether that year's feb was a leap year or not
+i.e. no. of days was 28 or 29. This info will be needed while deducting salary if the employee has taken
+leave(s).
+I have achived this using a function leap() and dictionary days. When a month is entered, the program fetches the days
+suitably from the dictionary. If feb is entered as month, the function will analyze whether that year was leap or not and accordingly, the program will fetch no. of days from the dictionary suitably.
 """
 
 import pandas as pd
