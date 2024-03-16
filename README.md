@@ -7,9 +7,10 @@ ii. for others to take new ideas about their upcoming/undergoing project(s)
 iii. for my personal records & to keep my work safe & easily accessible.
 
 
+
 Besides this, I might also upload some python programs which aren't any project, but those programs were written by me in python to either:
 
-i. understand a concept in python or
+i. understand a concept in python and/or
 
 ii. to practice a concept in python.
 
