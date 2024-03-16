@@ -2,11 +2,11 @@
 Salary System code storing data in csv file
 
 The I/P Section should accept the following details about the employee: 
-name
-monthly base salary
-month & year for which the employee's salary has to be calculated
-no. of leave days the employee took in that month
-the tax deduction (tds).
+- name
+- monthly base salary
+- month & year for which the employee's salary has to be calculated
+- no. of leave days the employee took in that month
+- the tax deduction (tds).
 
 The O/P Section should display the employee details & following details/calculations - (tds deduction, leave 
 deduction, final monthly take home salary) at console & along with this, a copy of the I/P details & the 
