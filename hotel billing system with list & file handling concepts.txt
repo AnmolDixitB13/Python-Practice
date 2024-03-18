@@ -103,7 +103,7 @@ def bill_with_gst(price, quantity, no_dishes, gst_per, discount_per):
       disc_amt = 0
     return gst_amt, disc_amt, total_bill
 
-
+#####################  Accepting the data from the user  ###############
 
 dish = []
 price = []
@@ -111,7 +111,6 @@ quantity = []
 
 i = 0
 ans_continue = 'Y'
-#####################  Accepting the data from the user  ###############
 
 while ans_continue.casefold() == 'y' :
 
